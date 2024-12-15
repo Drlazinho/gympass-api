@@ -26,8 +26,6 @@ describe('Create Gym (e2e)', () => {
         longitude: -49.6401091,
       })
 
-      console.log(response)
-
     expect(response.statusCode).toEqual(201)
   })
 })
